@@ -197,7 +197,7 @@ export default function(PDFJS) {
 				try {
 					pdfRender.cancel();
 				} catch (err) {
-					emitEvent('error', err);
+					// emitEvent('error', err);
 				}
 				return;
 			}
