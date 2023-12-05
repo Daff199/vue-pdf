@@ -199,7 +199,7 @@ export default function(PDFJS) {
 				// } catch (err) {
 				// 	emitEvent('error', err);
 				// }
-				// return;
+				return;
 			}
 
 			if ( pdfPage === null )
