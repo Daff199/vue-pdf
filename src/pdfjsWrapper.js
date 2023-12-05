@@ -194,11 +194,11 @@ export default function(PDFJS) {
 					return;
 				canceling = true;
 
-				try {
-					pdfRender.cancel();
-				} catch (err) {
-					// emitEvent('error', err);
-				}
+				// try {
+				// 	pdfRender.cancel();
+				// } catch (err) {
+				// 	emitEvent('error', err);
+				// }
 				return;
 			}
 
