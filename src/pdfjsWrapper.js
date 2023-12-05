@@ -269,9 +269,7 @@ export default function(PDFJS) {
 					emitEvent('error', err);
 				}.bind(this))
 
-				return Promise.all([getAnnotationsOperation, pdfRenderOperation].map(p => p.catch(e => e)))
-					
-				;
+				return Promise.all([getAnnotationsOperation, pdfRenderOperation]);
 			}.bind(this));
 		}
 
